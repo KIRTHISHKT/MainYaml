@@ -17,12 +17,12 @@ resources:
     - repository: yamltemp
       type: github
       name: KIRTHISHKT/yamltemplate
-      endpoint: KIRTHISHKT
+      endpoint: 'github.com_KIRTHISHKT'
 #      ref: main
     - repository: ResTrig
       type: github
       name: KIRTHISHKT/MainYaml
-      endpoint: KIRTHISHKT
+      endpoint: 'github.com_KIRTHISHKT'
 #      ref: '$(Build.SourceBranch)' 
 
 extends:
