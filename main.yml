@@ -23,7 +23,7 @@ resources:
       type: github
       name: KIRTHISHKT/MainYaml
       endpoint: KIRTHISHKT
-      ref: '$(Build.SourceBranch)' 
+#      ref: '$(Build.SourceBranch)' 
 
 extends:
   template: stage123.yml@yamltemp  # Template reference 
