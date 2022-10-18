@@ -14,16 +14,16 @@ pr:
 
 resources:
   repositories:
-    - repository: templaterepository
+    - repository: yamltemp
       type: github
-      name: KIRTHISHKT/templaterepo
+      name: KIRTHISHKT/yamltemplate
       endpoint: github.com_KIRTHISHKT
       ref: main
-    - repository: ResTri
+    - repository: ResTrig
       type: github
-      name: KIRTHISHKT/ResourceTrigger
+      name: KIRTHISHKT/MainYaml
       endpoint: github.com_KIRTHISHKT
       ref: '$(Build.SourceBranch)' 
 
 extends:
-  template: stage123.yml@templaterepository  # Template reference 
+  template: stage123.yml@yamltemplate  # Template reference 
