@@ -18,7 +18,7 @@ resources:
       type: github
       name: KIRTHISHKT/yamltemplate
       endpoint: 'github.com_KIRTHISHKT'
-#      ref: main
+      ref: main
     - repository: ResTrig
       type: github
       name: KIRTHISHKT/MainYaml
