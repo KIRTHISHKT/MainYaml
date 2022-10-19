@@ -1,5 +1,6 @@
 variables:
-  # model details
+  # model details 
+  # change added in DEV
   experiment_name: /experiments/dev-mlops
   output_path: /dbfs/dev-outputs/
   model_path: /dbfs/dev-models
