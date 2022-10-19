@@ -14,16 +14,13 @@ pr:
 
 resources:
   repositories:
+
     - repository: yamltemplate
       type: github
       name: KIRTHISHKT/yamltemplate
       endpoint: 'github.com_KIRTHISHKT'
       ref: main
-    - repository: ResTrig
-      type: github
-      name: KIRTHISHKT/MainYaml
-      endpoint: 'github.com_KIRTHISHKT'
-      ref: '$(Build.SourceBranch)' 
+
 
 stages:
   - template: stages.yml@yamltemplate  # Template reference 
