@@ -26,4 +26,4 @@ resources:
 #      ref: '$(Build.SourceBranch)' 
 
 extends:
-  template: stage123.yml  # Template reference 
+  template: stage123.yml@yamltemp  # Template reference 
