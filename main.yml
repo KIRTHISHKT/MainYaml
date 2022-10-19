@@ -14,7 +14,7 @@ pr:
 
 resources:
   repositories:
-    - repository: yamltemp
+    - repository: yamltemplate
       type: github
       name: KIRTHISHKT/yamltemplate
       endpoint: 'github.com_KIRTHISHKT'
@@ -26,4 +26,4 @@ resources:
 #      ref: '$(Build.SourceBranch)' 
 
 extends:
-  template: stage123.yml@yamltemp  # Template reference 
+  template: stage123.yml@yamltemplate  # Template reference 
