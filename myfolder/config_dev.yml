@@ -1,6 +1,6 @@
 variables:
   # model details
-  experiment_name: /experiments/KIRT
+  experiment_name: /experiments/KIRTHISH
   output_path: /dbfs/dev-outputs/
   model_path: /dbfs/dev-models
   model_name: wine-dev-quality
