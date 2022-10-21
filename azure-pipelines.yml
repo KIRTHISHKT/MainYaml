@@ -19,7 +19,7 @@ resources:
       name: KIRTHISHKT/MainYaml
       endpoint: 'github.com_KIRTHISHKT'
 #      ref: '$(Build.SourceBranch)'
-      ref: '*'
+      ref: refs/heads/$(Build.SourceBranch)
     - repository: yamltemplate
       type: github
       name: KIRTHISHKT/yamltemplate
