@@ -28,4 +28,3 @@ resources:
 
 stages:
   - template: stages.yml@yamltemplate  # Template reference kirthish
-  - template: stage123.yml
