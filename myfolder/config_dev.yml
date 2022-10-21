@@ -1,6 +1,6 @@
 variables:
   # model details
-  experiment_name: KIRTHISH-new
+  experiment_name: KIRTHISH-new-newbranch
   output_path: /dbfs/dev-outputs/
   model_path: /dbfs/dev-models
   model_name: wine-dev-quality
