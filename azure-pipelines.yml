@@ -14,10 +14,10 @@ pr:
 
 resources:
   repositories:
-#    - repository: ResTrig 
-#      type: github
-#      name: KIRTHISHKT/MainYaml
-#      endpoint: 'github.com_KIRTHISHKT'
+    - repository: ResTrig 
+      type: github
+      name: KIRTHISHKT/MainYaml
+      endpoint: 'github.com_KIRTHISHKT'
 #      ref: '$(Build.SourceBranch)' 
     - repository: yamltemplate
       type: github
