@@ -19,7 +19,7 @@ resources:
       name: KIRTHISHKT/MainYaml
       endpoint: 'github.com_KIRTHISHKT'
       #ref: '$(Build.SourceBranchname)'
-      ref: refs/pull/15
+      ref: refs/pull/15/merge
     - repository: yamltemplate
       type: github
       name: KIRTHISHKT/yamltemplate
